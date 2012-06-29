@@ -20,6 +20,7 @@
 .wiki-edit {
 	visibility: visible !important;
 	display: block !important;
+	width: 93% !important;
 }
 
 /* Explicit width for particular textareas, needed due the fucking EP stylesheets */
