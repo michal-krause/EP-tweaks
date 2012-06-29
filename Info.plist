@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Michal Krause</string>
+	<key>Builder Version</key>
+	<string>7534.57.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>Safari EP Tweaks</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.github.safariEpTweaks</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>jquery.js</string>
+				<string>markitup/jquery.markitup.js</string>
+				<string>markitup/sets/markdown/set.js</string>
+				<string>scripts.js</string>
+				<string>markdown/Markdown.Converter.js</string>
+				<string>markdown/Markdown.Sanitizer.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>markitup/skins/markitup/style.css</string>
+			<string>styles.css</string>
+			<string>markitup/sets/markdown/style.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Úpravy Easy Project</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>iinfo.easyproject.cz</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
