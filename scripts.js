@@ -41,8 +41,7 @@ var Editor = function($origin, $settings) {
 
 /* MarkItUp editor startup */
 $(document).ready(function() {
-	mySettings.previewTemplatePath = chrome.extension.getURL('markitup/templates/preview.html');
-
+	mySettings.previewTemplatePath = safari.extension.baseURI + 'markitup/templates/preview.html';
 	mySettings.previewParser = markdownParser;
 
 	// clone textarea, fuck up with CKE
