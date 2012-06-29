@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>7534.57.2</string>
 	<key>CFBundleDisplayName</key>
-	<string>Safari EP Tweaks</string>
+	<string>EP Tweaks</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.github.safariEpTweaks</string>
+	<string>com.github.michal-krause.ep-tweaks</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
